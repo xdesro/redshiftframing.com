@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600|Montserrat');
+
+$serif: "Josefin Slab", serif;
+$sans: "Montserrat", sans-serif;
+
+* {
+  font-family: $serif;
+}
+
+h1 {
+  font-family: $serif;
+  font-size: 58px;
+  color: $dark-color;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: center;
+}
+
+.navbar-item {
+  font-family: $sans;
+  color: $dark-color;
+}

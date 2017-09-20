@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Packt PWA Demo</title>
+    <link rel="stylesheet" href="css/style.css" charset="utf-8">
+  </head>
+  <body>
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="img/logo.png" alt="RedShift Framing">
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item " href="#location">Location</a>
+          <a class="navbar-item " href="#services">Services</a>
+          <a class="navbar-item " href="#contact">Contact</a>
+        </div>
+      </nav>
+      <section class="hero is-fullheight" id="home">
+        <div class="hero-head">&nbsp;</div>
+        <div class="hero-body">
+          <div class="container">
+            <h1>Redshift Framing</h1>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-fullheight" id="location">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column"><p>We’ve moved!<br>You can now find us at 1444 Stuart Street.<br>&nbsp;</p>
+              <a href="https://www.google.com/maps/dir//1444+Stuart+St,+Denver,+CO+80204/@39.7393891,-105.044711,17z/data=!4m16!1m7!3m6!1s0x876b8750474af7b1:0xcc3358b8af228543!2s1444+Stuart+St,+Denver,+CO+80204!3b1!8m2!3d39.739385!4d-105.0425223!4m7!1m0!1m5!1m1!1s0x876b8750474af7b1:0xcc3358b8af228543!2m2!1d-105.0425223!2d39.739385" class="button is-block is-dark" id="get-directions">Directions</a></div>
+              <div class="column">
+                <div class="map-container">
+                  <div class="placecard__container">
+                    <div class="placecard__left">
+                      <p class="placecard__business-name">Redshift Framing</p>
+                      <p class="placecard__info">1444 Stuart St, Denver, CO, 80204</p>
+                      <a class="placecard__view-large" href="https://goo.gl/maps/JmKH2yVBUEs">View larger map</a>
+                    </div>
+                    <div class="placecard__right">
+                      <a class="placecard__direction-link" href="https://www.google.com/maps/dir//1444+Stuart+St,+Denver,+CO+80204/@39.7393891,-105.044711,17z/data=!4m16!1m7!3m6!1s0x876b8750474af7b1:0xcc3358b8af228543!2s1444+Stuart+St,+Denver,+CO+80204!3b1!8m2!3d39.739385!4d-105.0425223!4m7!1m0!1m5!1m1!1s0x876b8750474af7b1:0xcc3358b8af228543!2m2!1d-105.0425223!2d39.739385" id="A_9">
+                        <div class="placecard__direction-icon"></div>
+                        Directions
+                      </a>
+                    </div>
+                  </div>
+                  <div id="map"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-fullheight" id="services">
+        <div class="hero-body">
+          <div class="container">
+            <h2 class="title">No frame is too large or too small.</h2>
+            <p>Our mission is to produce a perfect package for art that exceeds industry standards using innovation, creativity and environmentally sound products at a fair profit to fulfill our customers' expectation of value, aesthetics, quality and conservation.</p>
+            <ul>
+              <li>Museum quality framing</li>
+              <li>Simple or ornate framing for certificates or awards</li>
+              <li>Shadow box framing for collections</li>
+              <li>Building frames for stretching canvas</li>
+              <li>Local pickup and delivery</li>
+              <li>Affordable framing for posters</li>
+              <li>Matte cutting for presentations</li>
+              <li>Artwork shipping and crating</li>
+              <li>Art installation</li>
+              <li>Corporate art acquisition </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-fullheight" id="contact">
+        <div class="hero-body">
+          <div class="container">
+            <h2 class="title">You can reach us at</h2>
+            <p>1444 Stuart Street<br>Denver, CO 80204</p>
+            <p>or by phone and email at</p>
+            <p>303-293-2991<br>ron@redshiftframing.com<br>&nbsp;</p>
+            <a href="#" class="button is-primary is-block">Call now</a>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+    </body>
+  </html>

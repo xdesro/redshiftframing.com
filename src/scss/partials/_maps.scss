@@ -1,0 +1,77 @@
+.placecard {
+  &__container {
+    font-family: $sans;
+    overflow: hidden;
+    z-index: 2;
+    left:0;
+    right:0;
+    bottom: 1rem;
+    position: absolute;
+    width: 100%;
+    max-width: 330px;
+    margin: 10px auto;
+    padding: 9px 4px 9px 11px;
+    border-radius: 2px 2px 2px 2px;
+    background: rgb(255, 255, 255) none repeat scroll 0 0 / auto padding-box border-box;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0 1px 4px -1px;
+    }
+  &__left {
+    float: left;
+    width: 75%;
+    }
+  &__right {
+    float: left;
+    width: 25%;
+    text-align: center;
+    }
+  &__business-name {
+    font-family: $sans;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 200px;
+    height: 19px;
+    margin: 0;
+    cursor: default;
+    transform-origin: 100px 9.5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    perspective-origin: 100px 9.5px;
+    }
+  &__info {
+    font-size: 13px;
+    width: 200px;
+    // height: 32px;
+    margin: 6px 0 0;
+    cursor: default;
+    transform-origin: 100px 16px;
+    color: rgb(91, 91, 91);
+    border: 0 none rgb(91, 91, 91);
+    outline: rgb(91, 91, 91) none 0;
+
+    column-rule-color: rgb(91, 91, 91);
+    perspective-origin: 100px 16px;
+    }
+  &__direction-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(0, 0, 0, 0) url('https://maps.gstatic.com/mapfiles/embed/images/entity11.png') repeat scroll 0 0 / 70px 210px padding-box border-box;
+    filter: grayscale(1);
+    }
+  &__direction-link {
+    display: block;
+    width: 54.7344px;
+    height: 43px;
+    text-decoration: none;
+    color: $primary-color;
+    }
+  &__view-large {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: $primary-color;
+    }
+  }
